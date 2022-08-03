@@ -1,9 +1,9 @@
 import React from "react"
-// import { library } from '@fortawesome/fontawesome-svg-core'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faLocationDot} from '@fortawesome/free-solid-svg-icons'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLocationDot} from '@fortawesome/free-solid-svg-icons'
 
-// library.add(faLocationDot)
+library.add(faLocationDot)
 
 function Card() {
     return (
@@ -12,7 +12,7 @@ function Card() {
             <img src="https://source.unsplash.com/WLxQvbMyfas" alt="japan" className="card--img"/>    
           <div className="card--details">
             <div className="card--locations">
-              {/* <FontAwesomeIcon icon={faLocationDot} className="card--pin-icon" /> */}
+              <FontAwesomeIcon icon={faLocationDot} className="card--pin-icon" />
               <p className="card--country">Japan</p>
               <a href="https://www.google.com" className="card--googlemaps">View on Google Maps</a>
             </div>
