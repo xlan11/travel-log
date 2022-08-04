@@ -30,6 +30,8 @@ header h1 {
 
 main {
   padding:0px 20px;
+  width:510px;
+  margin:auto;
 }
 
 .card {
@@ -68,13 +70,14 @@ main {
   width:80%;
 }
 
-.card--googlemaps {
+.card--link {
   display:flex;
   font-weight: 400;
   font-size: 10.24px;
   line-height: 12px;
   text-decoration-line: underline;
   color: #918E9B;
+  margin-right:12px;
 }
 
 .card--description {
@@ -97,6 +100,8 @@ main {
   display:flex;
   align-items: center;
   flex-direction: row;
+  font-size: 10.24px;
+  line-height: 12px;
 
 }
 
